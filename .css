@@ -1,0 +1,144 @@
+* {
+  margin: 5px;
+  border: 5px;
+}
+
+.header {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  width: 100%;
+  background-color: rgb(254, 195, 106);
+  color: black;
+  text-align: center;
+}
+
+.more-information {
+  margin: 5px;
+  text-align: center;
+  padding: 5px;
+}
+
+h1 {
+  align-content: center;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  border-color: brown;
+}
+
+h3 {
+  align-content: center;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+h2 {
+  margin: 10px;
+  border: 10px;
+  margin-top: 37px;
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+body {
+  margin: 5px;
+  padding: 5px;
+  border: 5px;
+  background-color: rgb(255, 247, 209);
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+img:hover {
+  border-width: 3px;
+  border-color: rgb(255, 204, 50);
+  border-style: double;
+}
+
+.fufly {
+  width: 100%;
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 50px;
+  align-items: start;
+}
+
+.item {
+  width: 100%;
+  margin: 10px;
+  border: 10px;
+}
+
+.description {
+  text-align: center;
+}
+
+footer {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(254, 195, 106);
+  color: black;
+  text-align: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .item {
+    width: 100%;
+    margin: 10px;
+    border: 10px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .item {
+    width: 45%;
+    margin: 8px;
+    border: 8px;
+  }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .item {
+    width: 30%;
+    margin: 10px;
+    border: 10px;
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .item {
+    width: 27%;
+    margin: 10px;
+    border: 10px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .item {
+    width: 27%;
+    margin: 10px;
+    border: 10px;
+  }
+}
+
+}
